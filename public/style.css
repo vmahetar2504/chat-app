@@ -6,7 +6,7 @@ body {
 
 }
 #messages {
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 #messageList li {
