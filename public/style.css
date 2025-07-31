@@ -5,8 +5,26 @@ body {
        background-image: linear-gradient(rgb(175, 176, 185),purple);
 
 }
-
 #messages {
+    scroll-behavior: smooth;
+}
+
+#messageList li {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    max-width: 75%;
+    word-wrap: break-word;
+}
+
+#messageList li.self {
+    background-color: #d1e7dd;
+    margin-left: auto;
+    text-align: right;
+}
+
+/*#messages {
     list-style-type: none;
     padding: 10px;
     height: 80vh;
@@ -35,7 +53,7 @@ button {
     height: 34px;
 }
 
-/*.left{
+.left{
     float: left;
     clear: both;
 }
