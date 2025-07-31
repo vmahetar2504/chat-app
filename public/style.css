@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+       background-image: linear-gradient(rgb(175, 176, 185),purple);
+
+}
+
+#messages {
+    list-style-type: none;
+    padding: 10px;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+#form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background: #fff;
+    padding: 10px;
+}
+
+#input {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+/*.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}*/
